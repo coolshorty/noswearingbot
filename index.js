@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const TOKEN = 'NDg2MjIxOTg2MTAwNDEyNDE2.Dm79lg.cIwsR9RhmVmNf8kU9o1l5PwtrJQ';
-var inappWords = ["ass","bitch","crap","dick","fuck","nigger","penis","piss","porn","sex","shit","suck","xxx"];
+const TOKEN = 'ODEwMjE3NDEyMzYzNTUwNzIx.YCgbxA.Z3FqK2IbjifuCz6IdvThFdaUuV0';
+var inappWords = ["ass","bitch","crap","dick","fuck","nigger","penis","piss","porn","sex","shit","xxx","hoe","shit","asshole"];
 
 bot.on('message', function(message){
     const textMessage = message.content;
